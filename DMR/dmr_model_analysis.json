@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2025-09-15T19:54:35.755792",
+  "analysis_date": "2025-09-15T20:41:09.653397",
   "dmr_endpoint": "http://localhost:12434/engines/v1",
   "total_models": 6,
   "models": [
@@ -23,7 +23,7 @@
           "stop"
         ]
       },
-      "last_tested": "2025-09-15T19:53:14.568968",
+      "last_tested": "2025-09-15T20:40:00.497915",
       "test_results": {
         "function_calling": {
           "supports_function_calling": true,
@@ -43,37 +43,37 @@
                         "name": "get_weather",
                         "arguments": "{\"location\":\"Paris, France\"}"
                       },
-                      "id": "VwawM3qzxSJW37FidYXAGdJUWakvwU8m"
+                      "id": "NjtA2ongKgSwLR56cfruBxDbiE48ptgE"
                     }
                   ]
                 }
               }
             ],
-            "created": 1757958781,
+            "created": 1757961586,
             "model": "ai/gemma3:latest",
             "system_fingerprint": "b1-c610b6c",
             "object": "chat.completion",
             "usage": {
-              "completion_tokens": 44,
+              "completion_tokens": 45,
               "prompt_tokens": 313,
-              "total_tokens": 357
+              "total_tokens": 358
             },
-            "id": "chatcmpl-chGsjpA78IcQFKgpkEcq1XplA6AaG7QQ",
+            "id": "chatcmpl-ffe28MhNTofqwddgmO7IvL7lLqVKTPDO",
             "timings": {
               "prompt_n": 313,
-              "prompt_ms": 106.997,
-              "prompt_per_token_ms": 0.3418434504792332,
-              "prompt_per_second": 2925.315663055974,
-              "predicted_n": 44,
-              "predicted_ms": 310.185,
-              "predicted_per_token_ms": 7.049659090909091,
-              "predicted_per_second": 141.85083095571997
+              "prompt_ms": 116.893,
+              "prompt_per_token_ms": 0.3734600638977636,
+              "prompt_per_second": 2677.662477650501,
+              "predicted_n": 45,
+              "predicted_ms": 361.191,
+              "predicted_per_token_ms": 8.026466666666666,
+              "predicted_per_second": 124.58782195569657
             }
           }
         },
         "json_mode": {
           "supports_json_mode": true,
-          "content": "{}\n",
+          "content": "{}\n\n",
           "response": {
             "choices": [
               {
@@ -81,11 +81,11 @@
                 "index": 0,
                 "message": {
                   "role": "assistant",
-                  "content": "{}\n"
+                  "content": "{}\n\n"
                 }
               }
             ],
-            "created": 1757958784,
+            "created": 1757961590,
             "model": "ai/gemma3:latest",
             "system_fingerprint": "b1-c610b6c",
             "object": "chat.completion",
@@ -94,16 +94,16 @@
               "prompt_tokens": 36,
               "total_tokens": 39
             },
-            "id": "chatcmpl-L2TgnlIPbSGLm6LWNR2kBxYZ9ysR5Mex",
+            "id": "chatcmpl-32F1KLjq6DdDWzVH69gFlAtyXgRNORNS",
             "timings": {
               "prompt_n": 32,
-              "prompt_ms": 35.565,
-              "prompt_per_token_ms": 1.11140625,
-              "prompt_per_second": 899.7610009841137,
+              "prompt_ms": 39.992,
+              "prompt_per_token_ms": 1.24975,
+              "prompt_per_second": 800.1600320064014,
               "predicted_n": 3,
-              "predicted_ms": 43.569,
-              "predicted_per_token_ms": 14.523000000000001,
-              "predicted_per_second": 68.85629690835226
+              "predicted_ms": 47.151,
+              "predicted_per_token_ms": 15.717,
+              "predicted_per_second": 63.62537379907106
             }
           }
         },
@@ -122,8 +122,8 @@
                   }
                 }
               ],
-              "created": 1757958787,
-              "id": "chatcmpl-hFR9PGxmCZAyzBEQjrB83NnO6DHEqYtW",
+              "created": 1757961593,
+              "id": "chatcmpl-iUUNE4bmG1f4Np6p1Bc4M2xbjc3leKTC",
               "model": "ai/gemma3:latest",
               "system_fingerprint": "b1-c610b6c",
               "object": "chat.completion.chunk"
@@ -138,8 +138,8 @@
                   }
                 }
               ],
-              "created": 1757958787,
-              "id": "chatcmpl-hFR9PGxmCZAyzBEQjrB83NnO6DHEqYtW",
+              "created": 1757961593,
+              "id": "chatcmpl-iUUNE4bmG1f4Np6p1Bc4M2xbjc3leKTC",
               "model": "ai/gemma3:latest",
               "system_fingerprint": "b1-c610b6c",
               "object": "chat.completion.chunk"
@@ -154,8 +154,8 @@
                   }
                 }
               ],
-              "created": 1757958787,
-              "id": "chatcmpl-hFR9PGxmCZAyzBEQjrB83NnO6DHEqYtW",
+              "created": 1757961593,
+              "id": "chatcmpl-iUUNE4bmG1f4Np6p1Bc4M2xbjc3leKTC",
               "model": "ai/gemma3:latest",
               "system_fingerprint": "b1-c610b6c",
               "object": "chat.completion.chunk"
@@ -178,11 +178,11 @@
                 "index": 0,
                 "message": {
                   "role": "assistant",
-                  "content": "The rain tasted of forgotten memories and rusted metal."
+                  "content": "The rain tasted of forgotten memories and rusted iron."
                 }
               }
             ],
-            "created": 1757958790,
+            "created": 1757961596,
             "model": "ai/gemma3:latest",
             "system_fingerprint": "b1-c610b6c",
             "object": "chat.completion",
@@ -191,16 +191,16 @@
               "prompt_tokens": 14,
               "total_tokens": 25
             },
-            "id": "chatcmpl-GkwW8Qn64GskBArLjXqyAZdmKP5PvYXo",
+            "id": "chatcmpl-jVbXETEWK8iU5RQF71XhVr14MPLE47aQ",
             "timings": {
               "prompt_n": 10,
-              "prompt_ms": 15.667,
-              "prompt_per_token_ms": 1.5667,
-              "prompt_per_second": 638.2842918235782,
+              "prompt_ms": 17.922,
+              "prompt_per_token_ms": 1.7922,
+              "prompt_per_second": 557.9734404642339,
               "predicted_n": 11,
-              "predicted_ms": 93.393,
-              "predicted_per_token_ms": 8.490272727272727,
-              "predicted_per_second": 117.78184660520597
+              "predicted_ms": 91.509,
+              "predicted_per_token_ms": 8.319,
+              "predicted_per_second": 120.20675561966581
             }
           },
           "usage": {
@@ -228,7 +228,7 @@
         "max_context_length": null,
         "supported_parameters": []
       },
-      "last_tested": "2025-09-15T19:53:28.992359",
+      "last_tested": "2025-09-15T20:40:04.481739",
       "test_results": {
         "embeddings": {
           "supports_embeddings": true,
@@ -267,7 +267,7 @@
           "stop"
         ]
       },
-      "last_tested": "2025-09-15T19:53:48.809534",
+      "last_tested": "2025-09-15T20:40:24.795077",
       "test_results": {
         "function_calling": {
           "supports_function_calling": true,
@@ -279,7 +279,7 @@
                 "index": 0,
                 "message": {
                   "role": "assistant",
-                  "reasoning_content": "Okay, the user is asking about the weather in Paris. Let me check the tools provided. There's a get_weather function that requires the location and optional units. The user didn't specify Celsius or Fahrenheit, so maybe I should default to Celsius since Paris uses metric units. I'll call the function with location set to Paris, France and units as celsius.",
+                  "reasoning_content": "Okay, the user is asking about the weather in Paris. Let me check the tools provided. There's a get_weather function that requires a location and optional units. The location is Paris, France. The user didn't specify Celsius or Fahrenheit, so maybe I should default to Celsius since it's commonly used in France. I'll call the function with location set to \"Paris, France\" and units as \"celsius\".",
                   "content": null,
                   "tool_calls": [
                     {
@@ -288,31 +288,31 @@
                         "name": "get_weather",
                         "arguments": "{\"location\":\"Paris, France\",\"units\":\"celsius\"}"
                       },
-                      "id": "ozlC2Lt12IjH7MrwGMobRArAysTQaRxu"
+                      "id": "6eTay9SK9LesYFie6SaaGLiPqZtkeqOF"
                     }
                   ]
                 }
               }
             ],
-            "created": 1757958815,
+            "created": 1757961610,
             "model": "ai/qwen3:latest",
             "system_fingerprint": "b1-c610b6c",
             "object": "chat.completion",
             "usage": {
-              "completion_tokens": 106,
+              "completion_tokens": 118,
               "prompt_tokens": 197,
-              "total_tokens": 303
+              "total_tokens": 315
             },
-            "id": "chatcmpl-pxrD680tPG5GA5svkFJucU5SE1QHQTSe",
+            "id": "chatcmpl-muQ2droFDqcaXDA8OCf9uWhzGPJPoqf3",
             "timings": {
               "prompt_n": 197,
-              "prompt_ms": 118.896,
-              "prompt_per_token_ms": 0.6035329949238579,
-              "prompt_per_second": 1656.9102408827885,
-              "predicted_n": 106,
-              "predicted_ms": 818.617,
-              "predicted_per_token_ms": 7.722801886792452,
-              "predicted_per_second": 129.4866830275941
+              "prompt_ms": 114.819,
+              "prompt_per_token_ms": 0.5828375634517766,
+              "prompt_per_second": 1715.7439099800556,
+              "predicted_n": 118,
+              "predicted_ms": 872.814,
+              "predicted_per_token_ms": 7.396728813559322,
+              "predicted_per_second": 135.19489834031077
             }
           }
         },
@@ -330,7 +330,7 @@
                 }
               }
             ],
-            "created": 1757958817,
+            "created": 1757961612,
             "model": "ai/qwen3:latest",
             "system_fingerprint": "b1-c610b6c",
             "object": "chat.completion",
@@ -339,22 +339,22 @@
               "prompt_tokens": 35,
               "total_tokens": 37
             },
-            "id": "chatcmpl-15cSvef4v55KIIg5rkkOvy3Q6Ykz8fW1",
+            "id": "chatcmpl-KihQmAu3Y05VdWv5rRYu5M0b0isYIgbf",
             "timings": {
               "prompt_n": 34,
-              "prompt_ms": 29.768,
-              "prompt_per_token_ms": 0.8755294117647059,
-              "prompt_per_second": 1142.1660843859179,
+              "prompt_ms": 32.387,
+              "prompt_per_token_ms": 0.9525588235294118,
+              "prompt_per_second": 1049.8039336770926,
               "predicted_n": 2,
-              "predicted_ms": 25.366,
-              "predicted_per_token_ms": 12.683,
-              "predicted_per_second": 78.84569896712135
+              "predicted_ms": 24.997,
+              "predicted_per_token_ms": 12.4985,
+              "predicted_per_second": 80.00960115213826
             }
           }
         },
         "streaming": {
           "supports_streaming": true,
-          "chunk_count": 170,
+          "chunk_count": 325,
           "sample_chunks": [
             {
               "choices": [
@@ -367,8 +367,8 @@
                   }
                 }
               ],
-              "created": 1757958819,
-              "id": "chatcmpl-Dmog42uBCYqmrMZQyRMtQnSZqs9QtZ0e",
+              "created": 1757961614,
+              "id": "chatcmpl-diPVdZo6r1JCUSv3aW9vYqTls6f2rQEm",
               "model": "ai/qwen3:latest",
               "system_fingerprint": "b1-c610b6c",
               "object": "chat.completion.chunk"
@@ -383,8 +383,8 @@
                   }
                 }
               ],
-              "created": 1757958819,
-              "id": "chatcmpl-Dmog42uBCYqmrMZQyRMtQnSZqs9QtZ0e",
+              "created": 1757961614,
+              "id": "chatcmpl-diPVdZo6r1JCUSv3aW9vYqTls6f2rQEm",
               "model": "ai/qwen3:latest",
               "system_fingerprint": "b1-c610b6c",
               "object": "chat.completion.chunk"
@@ -399,8 +399,8 @@
                   }
                 }
               ],
-              "created": 1757958819,
-              "id": "chatcmpl-Dmog42uBCYqmrMZQyRMtQnSZqs9QtZ0e",
+              "created": 1757961614,
+              "id": "chatcmpl-diPVdZo6r1JCUSv3aW9vYqTls6f2rQEm",
               "model": "ai/qwen3:latest",
               "system_fingerprint": "b1-c610b6c",
               "object": "chat.completion.chunk"
@@ -427,7 +427,7 @@
                 }
               }
             ],
-            "created": 1757958823,
+            "created": 1757961619,
             "model": "ai/qwen3:latest",
             "system_fingerprint": "b1-c610b6c",
             "object": "chat.completion",
@@ -436,16 +436,16 @@
               "prompt_tokens": 13,
               "total_tokens": 15
             },
-            "id": "chatcmpl-BvmjwYlzhANDcS371Q99hFxE5xuFsYe0",
+            "id": "chatcmpl-mdCLA4dOsFyBEodYK2jKFjQPQieNDhgc",
             "timings": {
               "prompt_n": 10,
-              "prompt_ms": 14.357,
-              "prompt_per_token_ms": 1.4357,
-              "prompt_per_second": 696.5243435258062,
+              "prompt_ms": 14.383,
+              "prompt_per_token_ms": 1.4383,
+              "prompt_per_second": 695.265243690468,
               "predicted_n": 2,
-              "predicted_ms": 8.985,
-              "predicted_per_token_ms": 4.4925,
-              "predicted_per_second": 222.59321090706734
+              "predicted_ms": 9.011,
+              "predicted_per_token_ms": 4.5055,
+              "predicted_per_second": 221.95094884030632
             }
           },
           "usage": {
@@ -473,7 +473,7 @@
         "max_context_length": null,
         "supported_parameters": []
       },
-      "last_tested": "2025-09-15T19:53:50.179342",
+      "last_tested": "2025-09-15T20:40:26.157037",
       "test_results": {
         "embeddings": {
           "supports_embeddings": true,
@@ -512,7 +512,7 @@
           "stop"
         ]
       },
-      "last_tested": "2025-09-15T19:54:12.302181",
+      "last_tested": "2025-09-15T20:40:47.670298",
       "test_results": {
         "function_calling": {
           "supports_function_calling": true,
@@ -532,31 +532,31 @@
                         "name": "get_weather",
                         "arguments": "{\"location\":\"Paris, France\",\"units\":\"celsius\"}"
                       },
-                      "id": "vjOMjbAvn5QcwvxcITfTHl6gqf3t04qL"
+                      "id": "VA3bAr71WTVnSpqdyJ1QMOYuCE6zewgt"
                     }
                   ]
                 }
               }
             ],
-            "created": 1757958836,
+            "created": 1757961632,
             "model": "ai/gemma3n:latest",
             "system_fingerprint": "b1-c610b6c",
             "object": "chat.completion",
             "usage": {
-              "completion_tokens": 53,
+              "completion_tokens": 33,
               "prompt_tokens": 313,
-              "total_tokens": 366
+              "total_tokens": 346
             },
-            "id": "chatcmpl-ecsjgUtGGzGRsCZvQY9xRdUpJCphJ1Po",
+            "id": "chatcmpl-oYQtLHyEQkiSUTLPMM5IXyKUoepdg065",
             "timings": {
               "prompt_n": 313,
-              "prompt_ms": 147.952,
-              "prompt_per_token_ms": 0.47269009584664534,
-              "prompt_per_second": 2115.5509895101113,
-              "predicted_n": 53,
-              "predicted_ms": 930.902,
-              "predicted_per_token_ms": 17.564188679245284,
-              "predicted_per_second": 56.934027427162036
+              "prompt_ms": 144.316,
+              "prompt_per_token_ms": 0.461073482428115,
+              "prompt_per_second": 2168.8516865766787,
+              "predicted_n": 33,
+              "predicted_ms": 646.142,
+              "predicted_per_token_ms": 19.58006060606061,
+              "predicted_per_second": 51.072364898118366
             }
           }
         },
@@ -574,7 +574,7 @@
                 }
               }
             ],
-            "created": 1757958840,
+            "created": 1757961635,
             "model": "ai/gemma3n:latest",
             "system_fingerprint": "b1-c610b6c",
             "object": "chat.completion",
@@ -583,22 +583,22 @@
               "prompt_tokens": 36,
               "total_tokens": 70
             },
-            "id": "chatcmpl-YKvofU0FPauA5Gk17wcO8YK1pfbETvO8",
+            "id": "chatcmpl-m8xgOYVz49FxQ2Lw4ECNuFc9n960M3xj",
             "timings": {
               "prompt_n": 32,
-              "prompt_ms": 52.077,
-              "prompt_per_token_ms": 1.62740625,
-              "prompt_per_second": 614.4747201259673,
+              "prompt_ms": 47.352,
+              "prompt_per_token_ms": 1.47975,
+              "prompt_per_second": 675.7898293630682,
               "predicted_n": 34,
-              "predicted_ms": 534.977,
-              "predicted_per_token_ms": 15.734617647058823,
-              "predicted_per_second": 63.55413410296144
+              "predicted_ms": 505.234,
+              "predicted_per_token_ms": 14.859823529411765,
+              "predicted_per_second": 67.29555018070835
             }
           }
         },
         "streaming": {
           "supports_streaming": true,
-          "chunk_count": 9,
+          "chunk_count": 22,
           "sample_chunks": [
             {
               "choices": [
@@ -611,8 +611,8 @@
                   }
                 }
               ],
-              "created": 1757958843,
-              "id": "chatcmpl-QIJn0YC8J8XUEq9WJWfiT1v1onltEOaG",
+              "created": 1757961638,
+              "id": "chatcmpl-s6YI9tVWF0lFIm9b3AXXrlC4JyyJPQY4",
               "model": "ai/gemma3n:latest",
               "system_fingerprint": "b1-c610b6c",
               "object": "chat.completion.chunk"
@@ -623,12 +623,12 @@
                   "finish_reason": null,
                   "index": 0,
                   "delta": {
-                    "content": "1"
+                    "content": "Okay"
                   }
                 }
               ],
-              "created": 1757958843,
-              "id": "chatcmpl-QIJn0YC8J8XUEq9WJWfiT1v1onltEOaG",
+              "created": 1757961638,
+              "id": "chatcmpl-s6YI9tVWF0lFIm9b3AXXrlC4JyyJPQY4",
               "model": "ai/gemma3n:latest",
               "system_fingerprint": "b1-c610b6c",
               "object": "chat.completion.chunk"
@@ -639,12 +639,12 @@
                   "finish_reason": null,
                   "index": 0,
                   "delta": {
-                    "content": "\n"
+                    "content": "!"
                   }
                 }
               ],
-              "created": 1757958843,
-              "id": "chatcmpl-QIJn0YC8J8XUEq9WJWfiT1v1onltEOaG",
+              "created": 1757961638,
+              "id": "chatcmpl-s6YI9tVWF0lFIm9b3AXXrlC4JyyJPQY4",
               "model": "ai/gemma3n:latest",
               "system_fingerprint": "b1-c610b6c",
               "object": "chat.completion.chunk"
@@ -667,35 +667,35 @@
                 "index": 0,
                 "message": {
                   "role": "assistant",
-                  "content": "The lighthouse keeper's lamp cast a lonely eye across the churning sea, a silent promise to lost souls. "
+                  "content": "The old lighthouse keeper swore the fog whispered secrets of forgotten sailors. "
                 }
               }
             ],
-            "created": 1757958846,
+            "created": 1757961642,
             "model": "ai/gemma3n:latest",
             "system_fingerprint": "b1-c610b6c",
             "object": "chat.completion",
             "usage": {
-              "completion_tokens": 24,
+              "completion_tokens": 15,
               "prompt_tokens": 14,
-              "total_tokens": 38
+              "total_tokens": 29
             },
-            "id": "chatcmpl-65dYLxtTxY707Vm5tYC23HpifIaweEFL",
+            "id": "chatcmpl-i1wvnK12u7TnFLMx6ozUOTNsxcpAXt3p",
             "timings": {
               "prompt_n": 10,
-              "prompt_ms": 27.422,
-              "prompt_per_token_ms": 2.7422,
-              "prompt_per_second": 364.67070235577273,
-              "predicted_n": 24,
-              "predicted_ms": 422.88,
-              "predicted_per_token_ms": 17.62,
-              "predicted_per_second": 56.75368898978434
+              "prompt_ms": 27.257,
+              "prompt_per_token_ms": 2.7257000000000002,
+              "prompt_per_second": 366.87823311442935,
+              "predicted_n": 15,
+              "predicted_ms": 254.752,
+              "predicted_per_token_ms": 16.98346666666667,
+              "predicted_per_second": 58.88079387011681
             }
           },
           "usage": {
-            "completion_tokens": 24,
+            "completion_tokens": 15,
             "prompt_tokens": 14,
-            "total_tokens": 38
+            "total_tokens": 29
           }
         },
         "embeddings": {
@@ -724,7 +724,7 @@
           "stop"
         ]
       },
-      "last_tested": "2025-09-15T19:54:35.753793",
+      "last_tested": "2025-09-15T20:41:09.649395",
       "test_results": {
         "function_calling": {
           "supports_function_calling": true,
@@ -736,7 +736,7 @@
                 "index": 0,
                 "message": {
                   "role": "assistant",
-                  "reasoning_content": "Okay, the user is asking about the weather in Paris. Let me check the tools available. There's a function called get_weather that requires a location and optional units. The location is Paris, but the country isn't specified. Wait, the function's description says the location should be something like \"Paris, France\". So I should include that. The units are optional, but maybe I should default to celsius since it's a common unit for weather. But the user didn't specify, so maybe just provide the location and let the function handle the default units. Let me make sure to include \"Paris, France\" as the location. Alright, that's all I need.",
+                  "reasoning_content": "Okay, the user is asking about the weather in Paris. Let me check the tools available. There's a get_weather function that requires a location and optional units. The location is Paris, but the country isn't specified. Wait, the function's example shows \"Paris, France\", so maybe I should include that. The user didn't mention units, so maybe default to celsius since it's a common metric unit. But the function allows either, so perhaps I can leave units out, but the required parameter is just location. Wait, the required field is only location, so maybe I can just provide \"Paris\" as the location. But to be precise, adding \"France\" might be better. Let me confirm the function's parameters: the location is a string, e.g., Paris, France. So I should use \"Paris, France\" as the location. Units are optional, so maybe omit them unless specified. The user didn't mention units, so maybe the function has a default. Alternatively, maybe the assistant should specify, but since it's not required, perhaps it's okay to leave it out. So the tool call would be get_weather with location \"Paris, France\".",
                   "content": null,
                   "tool_calls": [
                     {
@@ -745,31 +745,31 @@
                         "name": "get_weather",
                         "arguments": "{\"location\":\"Paris, France\"}"
                       },
-                      "id": "tPKNSsMCe4djrbSgEXZyJKpr6c4Yvx5L"
+                      "id": "GBmE58ExhwCkF0JAvUgUdq3K6GompBkt"
                     }
                   ]
                 }
               }
             ],
-            "created": 1757958861,
+            "created": 1757961656,
             "model": "hf.co/lmstudio-community/qwen3-4b-gguf:q4_k_m",
             "system_fingerprint": "b1-c610b6c",
             "object": "chat.completion",
             "usage": {
-              "completion_tokens": 163,
+              "completion_tokens": 267,
               "prompt_tokens": 197,
-              "total_tokens": 360
+              "total_tokens": 464
             },
-            "id": "chatcmpl-P7fYFbYWlbjelwWkRw9PcHU13eYCFq0m",
+            "id": "chatcmpl-aXKt5FcC0I4GulvkrWaaNSfOtmQS7h2G",
             "timings": {
               "prompt_n": 197,
-              "prompt_ms": 123.252,
-              "prompt_per_token_ms": 0.6256446700507614,
-              "prompt_per_second": 1598.3513452114366,
-              "predicted_n": 163,
-              "predicted_ms": 891.681,
-              "predicted_per_token_ms": 5.470435582822086,
-              "predicted_per_second": 182.80079983761007
+              "prompt_ms": 94.267,
+              "prompt_per_token_ms": 0.47851269035532995,
+              "prompt_per_second": 2089.808734764021,
+              "predicted_n": 267,
+              "predicted_ms": 1301.358,
+              "predicted_per_token_ms": 4.874,
+              "predicted_per_second": 205.1702913418137
             }
           }
         },
@@ -787,7 +787,7 @@
                 }
               }
             ],
-            "created": 1757958864,
+            "created": 1757961658,
             "model": "hf.co/lmstudio-community/qwen3-4b-gguf:q4_k_m",
             "system_fingerprint": "b1-c610b6c",
             "object": "chat.completion",
@@ -796,22 +796,22 @@
               "prompt_tokens": 35,
               "total_tokens": 62
             },
-            "id": "chatcmpl-vVOrUINd6UiKoolikGozicQtmEHyaMq9",
+            "id": "chatcmpl-Jqdr0JZLX1bUYFITshwnoGfEx2XhnTg8",
             "timings": {
               "prompt_n": 34,
-              "prompt_ms": 30.27,
-              "prompt_per_token_ms": 0.8902941176470588,
-              "prompt_per_second": 1123.224314502808,
+              "prompt_ms": 27.451,
+              "prompt_per_token_ms": 0.8073823529411764,
+              "prompt_per_second": 1238.570543878183,
               "predicted_n": 27,
-              "predicted_ms": 204.338,
-              "predicted_per_token_ms": 7.568074074074074,
-              "predicted_per_second": 132.13401325255217
+              "predicted_ms": 144.205,
+              "predicted_per_token_ms": 5.3409259259259265,
+              "predicted_per_second": 187.23345237682466
             }
           }
         },
         "streaming": {
           "supports_streaming": true,
-          "chunk_count": 295,
+          "chunk_count": 238,
           "sample_chunks": [
             {
               "choices": [
@@ -824,8 +824,8 @@
                   }
                 }
               ],
-              "created": 1757958866,
-              "id": "chatcmpl-qahKYpTFueB6QY5cuzEVSaOWG67YU34v",
+              "created": 1757961660,
+              "id": "chatcmpl-QgWnAkxu6wKRuNZeQxRw80qNeAwu0tH6",
               "model": "hf.co/lmstudio-community/qwen3-4b-gguf:q4_k_m",
               "system_fingerprint": "b1-c610b6c",
               "object": "chat.completion.chunk"
@@ -840,8 +840,8 @@
                   }
                 }
               ],
-              "created": 1757958866,
-              "id": "chatcmpl-qahKYpTFueB6QY5cuzEVSaOWG67YU34v",
+              "created": 1757961660,
+              "id": "chatcmpl-QgWnAkxu6wKRuNZeQxRw80qNeAwu0tH6",
               "model": "hf.co/lmstudio-community/qwen3-4b-gguf:q4_k_m",
               "system_fingerprint": "b1-c610b6c",
               "object": "chat.completion.chunk"
@@ -856,8 +856,8 @@
                   }
                 }
               ],
-              "created": 1757958866,
-              "id": "chatcmpl-qahKYpTFueB6QY5cuzEVSaOWG67YU34v",
+              "created": 1757961660,
+              "id": "chatcmpl-QgWnAkxu6wKRuNZeQxRw80qNeAwu0tH6",
               "model": "hf.co/lmstudio-community/qwen3-4b-gguf:q4_k_m",
               "system_fingerprint": "b1-c610b6c",
               "object": "chat.completion.chunk"
@@ -884,7 +884,7 @@
                 }
               }
             ],
-            "created": 1757958870,
+            "created": 1757961664,
             "model": "hf.co/lmstudio-community/qwen3-4b-gguf:q4_k_m",
             "system_fingerprint": "b1-c610b6c",
             "object": "chat.completion",
@@ -893,16 +893,16 @@
               "prompt_tokens": 13,
               "total_tokens": 15
             },
-            "id": "chatcmpl-Mhrbgi6C9uxxV8Cp7baU7dKwoSipi7HN",
+            "id": "chatcmpl-9eprv3gOfVgWssBsSeBEwfmlWwkdjCV4",
             "timings": {
               "prompt_n": 10,
-              "prompt_ms": 11.909,
-              "prompt_per_token_ms": 1.1909,
-              "prompt_per_second": 839.7010664203543,
+              "prompt_ms": 11.417,
+              "prompt_per_token_ms": 1.1417,
+              "prompt_per_second": 875.8868354208636,
               "predicted_n": 2,
-              "predicted_ms": 7.339,
-              "predicted_per_token_ms": 3.6695,
-              "predicted_per_second": 272.51669164736336
+              "predicted_ms": 6.209,
+              "predicted_per_token_ms": 3.1045,
+              "predicted_per_second": 322.1130616846513
             }
           },
           "usage": {
